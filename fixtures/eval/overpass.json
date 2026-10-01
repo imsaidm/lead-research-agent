@@ -1,0 +1,107 @@
+{
+  "_comment": "Eval set: 8 fictional businesses with known expected properties (see eval/expectations.ts).",
+  "elements": [
+    {
+      "type": "node",
+      "id": 1001,
+      "lat": 30.2672,
+      "lon": -97.7431,
+      "tags": {
+        "craft": "plumber",
+        "name": "Lone Star Plumbing",
+        "website": "http://lonestar-plumbing.example/",
+        "phone": "+1 512-555-0101",
+        "addr:housenumber": "100",
+        "addr:street": "Congress Avenue",
+        "addr:city": "Austin",
+        "addr:state": "TX",
+        "addr:postcode": "78701"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1002,
+      "lat": 30.25,
+      "lon": -97.79,
+      "tags": {
+        "craft": "plumber",
+        "name": "Barton Creek Plumbing",
+        "phone": "+1 512-555-0102",
+        "addr:city": "Austin",
+        "addr:state": "TX"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1003,
+      "lat": 30.265,
+      "lon": -97.72,
+      "tags": {
+        "craft": "plumber",
+        "name": "Eastside Drain Pros"
+      }
+    },
+    {
+      "type": "way",
+      "id": 2004,
+      "center": {
+        "lat": 30.28,
+        "lon": -97.74
+      },
+      "tags": {
+        "craft": "plumber",
+        "name": "Capitol Rooter",
+        "website": "https://capitol-rooter.example/",
+        "contact:phone": "+1 512-555-0104"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1005,
+      "lat": 30.3,
+      "lon": -97.8,
+      "tags": {
+        "craft": "plumber",
+        "name": "Hill Country Pipes",
+        "website": "http://hill-country-pipes.example/",
+        "phone": "+1 512-555-0105"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1006,
+      "lat": 30.23,
+      "lon": -97.76,
+      "tags": {
+        "craft": "plumber",
+        "name": "Austin Leak Fix",
+        "website": "https://austin-leak-fix.example/",
+        "phone": "+1 512-555-0106"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1007,
+      "lat": 30.295,
+      "lon": -97.705,
+      "tags": {
+        "craft": "plumber",
+        "name": "Mueller Plumbing Co.",
+        "contact:website": "http://mueller-plumbing.example/",
+        "phone": "+1 512-555-0107"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1008,
+      "lat": 30.26,
+      "lon": -97.75,
+      "tags": {
+        "craft": "plumber",
+        "name": "Riverside Plumbing",
+        "website": "https://riverside-plumbing.example/",
+        "phone": "+1 512-555-0108"
+      }
+    }
+  ]
+}

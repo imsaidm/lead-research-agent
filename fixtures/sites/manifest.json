@@ -1,0 +1,17 @@
+{
+  "_comment": "Offline website fixtures for --mock and tests. All businesses and .example domains are fictional. Missing robots.txt URLs return 404; any other missing URL is a network error.",
+  "http://lonestar-plumbing.example/": { "file": "lonestar-plumbing.html", "status": 200, "elapsedMs": 4210 },
+  "https://lonestar-plumbing.example/": { "error": "network", "message": "ECONNREFUSED: connect ECONNREFUSED" },
+  "https://capitol-rooter.example/": { "file": "capitol-rooter.html", "status": 200, "elapsedMs": 620 },
+  "http://hill-country-pipes.example/": { "redirectTo": "https://hill-country-pipes.example/", "elapsedMs": 120 },
+  "https://hill-country-pipes.example/": { "file": "hill-country-pipes.html", "status": 200, "elapsedMs": 540 },
+  "https://hill-country-pipes.example/robots.txt": { "file": "generic-robots.txt", "status": 200, "elapsedMs": 40 },
+  "https://austin-leak-fix.example/": { "file": "austin-leak-fix.html", "status": 200, "elapsedMs": 1800 },
+  "http://mueller-plumbing.example/": { "file": "mueller-plumbing.html", "status": 200, "elapsedMs": 3500 },
+  "https://mueller-plumbing.example/": { "file": "mueller-plumbing.html", "status": 200, "elapsedMs": 900 },
+  "https://riverside-plumbing.example/robots.txt": { "file": "riverside-robots.txt", "status": 200, "elapsedMs": 60 },
+  "https://riverside-plumbing.example/": { "file": "capitol-rooter.html", "status": 200, "elapsedMs": 500 },
+  "http://southcongress-plumbing.example/robots.txt": { "error": "dns_failed" },
+  "http://southcongress-plumbing.example/": { "error": "dns_failed" },
+  "https://pflugerville-plumbing.example/": { "file": "server-error.html", "status": 500, "elapsedMs": 300 }
+}

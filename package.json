@@ -1,0 +1,27 @@
+{
+  "name": "lead-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lead Research Agent: finds local businesses on OpenStreetMap, audits their websites, scores leads and drafts outreach for human review using Claude tool use.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "agent": "node --disable-warning=ExperimentalWarning src/cli.ts",
+    "eval": "node --disable-warning=ExperimentalWarning eval/run-eval.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "node-html-parser": "^9.0.4",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "place_id": 1,
+    "lat": "30.2711286",
+    "lon": "-97.7436995",
+    "display_name": "Austin, Travis County, Texas, United States (MOCK fixture)",
+    "boundingbox": ["30.0985133", "30.5166255", "-97.9367663", "-97.5605288"]
+  }
+]

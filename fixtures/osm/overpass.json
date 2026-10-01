@@ -1,0 +1,17 @@
+{
+  "_comment": "Fictional businesses for --mock runs. Domains use the reserved .example TLD; phone numbers use the fictional 555-01xx range.",
+  "elements": [
+    { "type": "node", "id": 1001, "lat": 30.2672, "lon": -97.7431, "tags": { "craft": "plumber", "name": "Lone Star Plumbing", "website": "http://lonestar-plumbing.example/", "phone": "+1 512-555-0101", "addr:housenumber": "100", "addr:street": "Congress Avenue", "addr:city": "Austin", "addr:state": "TX", "addr:postcode": "78701" } },
+    { "type": "node", "id": 1002, "lat": 30.2500, "lon": -97.7900, "tags": { "craft": "plumber", "name": "Barton Creek Plumbing", "phone": "+1 512-555-0102", "addr:city": "Austin", "addr:state": "TX" } },
+    { "type": "node", "id": 1003, "lat": 30.2650, "lon": -97.7200, "tags": { "craft": "plumber", "name": "Eastside Drain Pros" } },
+    { "type": "way", "id": 2004, "center": { "lat": 30.2800, "lon": -97.7400 }, "tags": { "craft": "plumber", "name": "Capitol Rooter", "website": "https://capitol-rooter.example/", "contact:phone": "+1 512-555-0104" } },
+    { "type": "node", "id": 1005, "lat": 30.3000, "lon": -97.8000, "tags": { "craft": "plumber", "name": "Hill Country Pipes", "website": "http://hill-country-pipes.example/", "phone": "+1 512-555-0105" } },
+    { "type": "node", "id": 1006, "lat": 30.2300, "lon": -97.7600, "tags": { "craft": "plumber", "name": "Austin Leak Fix", "website": "https://austin-leak-fix.example/", "phone": "+1 512-555-0106" } },
+    { "type": "node", "id": 1007, "lat": 30.2950, "lon": -97.7050, "tags": { "craft": "plumber", "name": "Mueller Plumbing Co.", "contact:website": "http://mueller-plumbing.example/", "phone": "+1 512-555-0107" } },
+    { "type": "node", "id": 1008, "lat": 30.2600, "lon": -97.7500, "tags": { "craft": "plumber", "name": "Riverside Plumbing", "website": "https://riverside-plumbing.example/", "phone": "+1 512-555-0108" } },
+    { "type": "node", "id": 1009, "lat": 30.2450, "lon": -97.7500, "tags": { "craft": "plumber", "name": "South Congress Plumbing", "website": "http://southcongress-plumbing.example/", "phone": "+1 512-555-0109" } },
+    { "type": "node", "id": 1010, "lat": 30.4400, "lon": -97.6200, "tags": { "craft": "plumber", "name": "Pflugerville Plumbing", "website": "https://pflugerville-plumbing.example/" } },
+    { "type": "node", "id": 1011, "lat": 30.2700, "lon": -97.7400, "tags": { "craft": "plumber" } },
+    { "type": "way", "id": 2001, "center": { "lat": 30.2672, "lon": -97.7431 }, "tags": { "craft": "plumber", "name": "Lone Star Plumbing", "website": "http://lonestar-plumbing.example/" } }
+  ]
+}
